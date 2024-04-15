@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#root{
+  padding: 0px;
+}
+body{
+  background-color: rgb(152, 219, 221);
+}
+.text{
+ width: 100%;
+ text-align: start;
+ margin: auto;
+}
+.buttons{
+  gap: 1rem;
+  display: flex;
+  
+}
