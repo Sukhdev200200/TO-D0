@@ -95,7 +95,7 @@ function App() {
         <Marquee className='font-bold m-3'>The secret of your future is hidden in your daily routine</Marquee>
         <h2 className='font-bold '>Add-Your-Activity</h2>
         <input onChange={handleChange} value={todo} type="text" className='w-5/6 m-3 ' />
-        <button onClick={handleAdd}  disabled={todo.length<=5} className='disabled:bg-neutral-600  bg-neutral-600 hover:bg-neutral-950 mx-6 font-bold text-white  rounded-lg  text-sm p-3 py-1 cursor-pointer '>Add</button>
+        <button onClick={handleAdd}  disabled={todo.length<=3} className='disabled:bg-neutral-600  bg-neutral-600 hover:bg-neutral-950 mx-6 font-bold text-white  rounded-lg  text-sm p-3 py-1 cursor-pointer '>Add</button>
       </div>
       <input onChange={toggleFinished} type="checkbox"  checked={Finished} id="show" className='m-6'/>
       <label htmlFor="">Completed Activities</label>
